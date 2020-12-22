@@ -1,5 +1,5 @@
 # Rust learning tutorial
-
+> Rust cli appp
 # cargo run
 
 # cargo build
