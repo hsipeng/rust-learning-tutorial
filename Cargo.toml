@@ -1,9 +1,15 @@
 [package]
 name = "grrs"
 version = "0.1.0"
-authors = ["pengxi <pengxi.lirawx@bytedance.com>"]
 edition = "2018"
-
+authors = ["lirawx <lira_wx@outlook.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/lirawx/rust-learning-tutorial"
+repository = "https://github.com/lirawx/rust-learning-tutorial"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
