@@ -28,3 +28,9 @@ cargo +nightly bench | tee after.txt
 cargo install cargo-benchcmp
 cargo benchcmp before.txt after.txt
 ```
+
+## publish
+
+```bash
+wasm-pack publish
+```
