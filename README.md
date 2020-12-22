@@ -18,3 +18,10 @@ cd www && yarn start
 ```bash
 cargo test
 ```
+
+## bench
+
+```bash
+rustup install nightly
+cargo +nightly bench | tee before.txt
+```
