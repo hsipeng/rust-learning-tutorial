@@ -1,4 +1,3 @@
-#![cfg(target_arch = "wasm32")]
 #![feature(test)]
 
 extern crate test;
