@@ -24,4 +24,7 @@ cargo test
 ```bash
 rustup install nightly
 cargo +nightly bench | tee before.txt
+cargo +nightly bench | tee after.txt
+cargo install cargo-benchcmp
+cargo benchcmp before.txt after.txt
 ```
