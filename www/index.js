@@ -159,7 +159,7 @@ const drawCells = () => {
   for (let row = 0; row < height; row++) {
     for (let col = 0; col < width; col++) {
       const idx = getIndex(row, col);
-      if (cells[idx] !== Cell.Alive) {
+      if (cells[idx] !== ALIVE) {
         continue;
       }
 
@@ -177,7 +177,7 @@ const drawCells = () => {
   for (let row = 0; row < height; row++) {
     for (let col = 0; col < width; col++) {
       const idx = getIndex(row, col);
-      if (cells[idx] !== Cell.Dead) {
+      if (cells[idx] !== DEAD) {
         continue;
       }
 
